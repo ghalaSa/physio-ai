@@ -1,0 +1,25 @@
+# environments / caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+.env
+*.log
+nohup.out
+
+# data: only the small dataset descriptors and the Dataverse listing are versioned
+data/raw/*.mp4
+data/poses/
+data/tmp/
+data/samples/*.mp4
+data/samples/*.mov
+data/*.tgz
+
+# large or regenerable outputs (selected model weights and metrics ARE versioned)
+outputs/models/*.joblib
+outputs/models/pose_landmarker_lite.task
+outputs/models/cv_*.pt
+outputs/metrics/cv_*_fold*.json
+outputs/metrics/movement_features_all.csv
+outputs/*.db-journal

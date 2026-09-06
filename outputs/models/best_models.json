@@ -1,0 +1,16 @@
+{
+  "classification": {
+    "run_name": "bilstm_cls",
+    "family": "torch",
+    "artifact": "bilstm_cls.pt",
+    "val_macro_f1": 0.9855557949675595,
+    "task": "cls"
+  },
+  "regression": {
+    "run_name": "tcn_reg",
+    "family": "torch",
+    "artifact": "tcn_reg.pt",
+    "val_mae": 10.279015210106113,
+    "task": "reg"
+  }
+}

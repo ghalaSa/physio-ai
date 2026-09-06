@@ -1,0 +1,410 @@
+{
+  "run_name": "bilstm_cls",
+  "task": "cls",
+  "family": "torch",
+  "model": "bilstm",
+  "params": 426441,
+  "n_train": 2477,
+  "n_val": 326,
+  "epochs_run": 40,
+  "best_epoch": 27,
+  "val": {
+    "cls": {
+      "accuracy": 0.9815950920245399,
+      "macro_f1": 0.9855557949675595,
+      "macro_precision": 0.986657551727281,
+      "macro_recall": 0.984685931352598,
+      "per_class": {
+        "E01": {
+          "precision": 0.9433962264150944,
+          "recall": 0.9615384615384616,
+          "f1": 0.9523809523809523,
+          "support": 52
+        },
+        "E02": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 35
+        },
+        "E03": {
+          "precision": 0.98,
+          "recall": 0.98,
+          "f1": 0.98,
+          "support": 50
+        },
+        "E04": {
+          "precision": 1.0,
+          "recall": 0.9428571428571428,
+          "f1": 0.9705882352941176,
+          "support": 35
+        },
+        "E05": {
+          "precision": 0.9565217391304348,
+          "recall": 0.9777777777777777,
+          "f1": 0.967032967032967,
+          "support": 45
+        },
+        "E06": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 35
+        },
+        "E07": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 17
+        },
+        "E08": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 32
+        },
+        "E09": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 25
+        }
+      },
+      "confusion_matrix": [
+        [
+          50,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          35,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          49,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          33,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          44,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          35,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          17,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          32,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          25
+        ]
+      ],
+      "classes": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08",
+        "E09"
+      ],
+      "n": 326
+    }
+  },
+  "selection_metric": "macro_f1",
+  "selection_value": 0.9855557949675595,
+  "train_seconds": 135.8,
+  "config": {
+    "run_name": "bilstm_cls",
+    "task": "cls",
+    "encoder": "bilstm",
+    "epochs": 60,
+    "batch_size": 32,
+    "lr": 0.001,
+    "weight_decay": 0.001,
+    "dropout": 0.3,
+    "patience": 12,
+    "seed": 0,
+    "augment": true,
+    "reg_weight": 1.0,
+    "encoder_kwargs": {},
+    "notes": ""
+  },
+  "history": [
+    {
+      "epoch": 0,
+      "train_loss": 1.3360777577903418,
+      "val_selection": 0.7666817068958571
+    },
+    {
+      "epoch": 1,
+      "train_loss": 0.8226106409156424,
+      "val_selection": 0.8205718760642522
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.6507043825988091,
+      "val_selection": 0.8659717052331417
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.5659384620637243,
+      "val_selection": 0.8776034128262732
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.5283939722544925,
+      "val_selection": 0.9387902903390591
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.49550489374452605,
+      "val_selection": 0.9396156026549443
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.44853302807542267,
+      "val_selection": 0.9531540777283714
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.45310048254257157,
+      "val_selection": 0.9353926684150937
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.41464043898018416,
+      "val_selection": 0.9533513065177419
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.4001417713969958,
+      "val_selection": 0.9520805635356719
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.3902355046295379,
+      "val_selection": 0.9407781582775606
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.3892478965490539,
+      "val_selection": 0.9438000192378865
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.3658716275199171,
+      "val_selection": 0.9560846560846561
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.37749158007799255,
+      "val_selection": 0.9347189014974386
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.3618429949146921,
+      "val_selection": 0.9666617869516421
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.3593949992833813,
+      "val_selection": 0.9699933512984463
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.3536329154025945,
+      "val_selection": 0.9491482062910634
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.355452007206881,
+      "val_selection": 0.9526769422147301
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.3385379368083632,
+      "val_selection": 0.9589124611575701
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.33696957809048217,
+      "val_selection": 0.9497979010928989
+    },
+    {
+      "epoch": 20,
+      "train_loss": 0.3340376023568595,
+      "val_selection": 0.9669888509057407
+    },
+    {
+      "epoch": 21,
+      "train_loss": 0.3366681329175066,
+      "val_selection": 0.9547073776199065
+    },
+    {
+      "epoch": 22,
+      "train_loss": 0.3258725757747106,
+      "val_selection": 0.9728558580070017
+    },
+    {
+      "epoch": 23,
+      "train_loss": 0.3330615863811599,
+      "val_selection": 0.9689802934039222
+    },
+    {
+      "epoch": 24,
+      "train_loss": 0.3291693667779298,
+      "val_selection": 0.9671256553670572
+    },
+    {
+      "epoch": 25,
+      "train_loss": 0.3265333043191045,
+      "val_selection": 0.96207057703837
+    },
+    {
+      "epoch": 26,
+      "train_loss": 0.32132448872636293,
+      "val_selection": 0.962920123142228
+    },
+    {
+      "epoch": 27,
+      "train_loss": 0.3134353443601221,
+      "val_selection": 0.9855557949675595
+    },
+    {
+      "epoch": 28,
+      "train_loss": 0.31338651780885796,
+      "val_selection": 0.9772047562842174
+    },
+    {
+      "epoch": 29,
+      "train_loss": 0.3142570279204754,
+      "val_selection": 0.9746974683324273
+    },
+    {
+      "epoch": 30,
+      "train_loss": 0.3128201727261695,
+      "val_selection": 0.963926287289405
+    },
+    {
+      "epoch": 31,
+      "train_loss": 0.3153880225177922,
+      "val_selection": 0.9704198600912216
+    },
+    {
+      "epoch": 32,
+      "train_loss": 0.3081254276793283,
+      "val_selection": 0.9763855912342577
+    },
+    {
+      "epoch": 33,
+      "train_loss": 0.30964376377058356,
+      "val_selection": 0.977303012212469
+    },
+    {
+      "epoch": 34,
+      "train_loss": 0.3086501746274889,
+      "val_selection": 0.9760733214184418
+    },
+    {
+      "epoch": 35,
+      "train_loss": 0.3049540226383463,
+      "val_selection": 0.9712078882862077
+    },
+    {
+      "epoch": 36,
+      "train_loss": 0.3037635173150788,
+      "val_selection": 0.9688245910468134
+    },
+    {
+      "epoch": 37,
+      "train_loss": 0.304574665628136,
+      "val_selection": 0.9707765770529563
+    },
+    {
+      "epoch": 38,
+      "train_loss": 0.3030317108213396,
+      "val_selection": 0.9691571598237851
+    },
+    {
+      "epoch": 39,
+      "train_loss": 0.3013852335148682,
+      "val_selection": 0.9741174369070779
+    }
+  ],
+  "artifact": "bilstm_cls.pt"
+}

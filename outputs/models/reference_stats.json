@@ -1,0 +1,506 @@
+{
+  "E01": {
+    "range_of_motion_deg": {
+      "n": 371,
+      "p25": 114.9,
+      "median": 153.0,
+      "p75": 163.64999999999998
+    },
+    "smoothness_sparc": {
+      "n": 371,
+      "p25": -45.2975,
+      "median": -18.757,
+      "p75": -9.256
+    },
+    "tempo_reps_per_s": {
+      "n": 371,
+      "p25": 0.31,
+      "median": 0.356,
+      "p75": 0.478
+    },
+    "repetitions": {
+      "n": 371,
+      "p25": 2.0,
+      "median": 10.0,
+      "p75": 14.0
+    },
+    "rep_duration_s": {
+      "n": 314,
+      "p25": 1.6324999999999998,
+      "median": 2.435,
+      "p75": 2.99
+    },
+    "rep_duration_cv": {
+      "n": 271,
+      "p25": 0.096,
+      "median": 0.254,
+      "p75": 0.429
+    },
+    "symmetry_ratio": {
+      "n": 371,
+      "p25": 0.028,
+      "median": 0.05,
+      "p75": 0.097
+    },
+    "trajectory_consistency": {
+      "n": 271,
+      "p25": 0.6085,
+      "median": 0.751,
+      "p75": 0.9384999999999999
+    },
+    "trunk_lean_range_deg": {
+      "n": 371,
+      "p25": 2.4,
+      "median": 3.3,
+      "p75": 4.6
+    }
+  },
+  "E02": {
+    "range_of_motion_deg": {
+      "n": 263,
+      "p25": 21.2,
+      "median": 27.6,
+      "p75": 35.9
+    },
+    "smoothness_sparc": {
+      "n": 263,
+      "p25": -45.513000000000005,
+      "median": -34.852,
+      "p75": -26.139499999999998
+    },
+    "tempo_reps_per_s": {
+      "n": 263,
+      "p25": 0.371,
+      "median": 0.426,
+      "p75": 0.7295
+    },
+    "repetitions": {
+      "n": 263,
+      "p25": 12.5,
+      "median": 18.0,
+      "p75": 20.0
+    },
+    "rep_duration_s": {
+      "n": 263,
+      "p25": 1.2149999999999999,
+      "median": 1.41,
+      "p75": 1.9649999999999999
+    },
+    "rep_duration_cv": {
+      "n": 262,
+      "p25": 0.1945,
+      "median": 0.307,
+      "p75": 0.38775000000000004
+    },
+    "symmetry_ratio": {
+      "n": 263,
+      "p25": 0.2,
+      "median": 0.305,
+      "p75": 0.4515
+    },
+    "trajectory_consistency": {
+      "n": 262,
+      "p25": 0.3725,
+      "median": 0.5425,
+      "p75": 0.7415
+    },
+    "trunk_lean_range_deg": {
+      "n": 263,
+      "p25": 2.1,
+      "median": 3.1,
+      "p75": 4.05
+    }
+  },
+  "E03": {
+    "range_of_motion_deg": {
+      "n": 390,
+      "p25": 80.175,
+      "median": 98.0,
+      "p75": 123.675
+    },
+    "smoothness_sparc": {
+      "n": 390,
+      "p25": -49.29975,
+      "median": -25.468,
+      "p75": -14.214500000000001
+    },
+    "tempo_reps_per_s": {
+      "n": 390,
+      "p25": 0.36424999999999996,
+      "median": 0.417,
+      "p75": 0.57075
+    },
+    "repetitions": {
+      "n": 390,
+      "p25": 3.0,
+      "median": 10.0,
+      "p75": 14.0
+    },
+    "rep_duration_s": {
+      "n": 337,
+      "p25": 1.18,
+      "median": 1.7,
+      "p75": 2.31
+    },
+    "rep_duration_cv": {
+      "n": 294,
+      "p25": 0.19025,
+      "median": 0.348,
+      "p75": 0.46125000000000005
+    },
+    "symmetry_ratio": {
+      "n": 390,
+      "p25": 0.046,
+      "median": 0.094,
+      "p75": 0.226
+    },
+    "trajectory_consistency": {
+      "n": 294,
+      "p25": 0.28825,
+      "median": 0.506,
+      "p75": 0.75325
+    },
+    "trunk_lean_range_deg": {
+      "n": 390,
+      "p25": 1.5,
+      "median": 2.2,
+      "p75": 3.3
+    }
+  },
+  "E04": {
+    "range_of_motion_deg": {
+      "n": 259,
+      "p25": 68.9,
+      "median": 89.1,
+      "p75": 114.1
+    },
+    "smoothness_sparc": {
+      "n": 259,
+      "p25": -65.44,
+      "median": -46.78,
+      "p75": -31.0545
+    },
+    "tempo_reps_per_s": {
+      "n": 259,
+      "p25": 0.3495,
+      "median": 0.412,
+      "p75": 0.531
+    },
+    "repetitions": {
+      "n": 259,
+      "p25": 10.0,
+      "median": 13.0,
+      "p75": 17.5
+    },
+    "rep_duration_s": {
+      "n": 257,
+      "p25": 1.31,
+      "median": 1.66,
+      "p75": 2.21
+    },
+    "rep_duration_cv": {
+      "n": 255,
+      "p25": 0.169,
+      "median": 0.328,
+      "p75": 0.4245
+    },
+    "symmetry_ratio": {
+      "n": 259,
+      "p25": 0.069,
+      "median": 0.138,
+      "p75": 0.2415
+    },
+    "trajectory_consistency": {
+      "n": 255,
+      "p25": 0.371,
+      "median": 0.593,
+      "p75": 0.7975000000000001
+    },
+    "trunk_lean_range_deg": {
+      "n": 259,
+      "p25": 2.0,
+      "median": 2.8,
+      "p75": 3.8
+    }
+  },
+  "E05": {
+    "range_of_motion_deg": {
+      "n": 345,
+      "p25": 129.9,
+      "median": 145.8,
+      "p75": 160.3
+    },
+    "smoothness_sparc": {
+      "n": 345,
+      "p25": -42.311,
+      "median": -26.962,
+      "p75": -12.069
+    },
+    "tempo_reps_per_s": {
+      "n": 345,
+      "p25": 0.355,
+      "median": 0.404,
+      "p75": 0.529
+    },
+    "repetitions": {
+      "n": 345,
+      "p25": 3.0,
+      "median": 10.0,
+      "p75": 10.0
+    },
+    "rep_duration_s": {
+      "n": 315,
+      "p25": 1.82,
+      "median": 2.35,
+      "p75": 2.76
+    },
+    "rep_duration_cv": {
+      "n": 261,
+      "p25": 0.051,
+      "median": 0.069,
+      "p75": 0.237
+    },
+    "symmetry_ratio": {
+      "n": 345,
+      "p25": 0.038,
+      "median": 0.07,
+      "p75": 0.159
+    },
+    "trajectory_consistency": {
+      "n": 261,
+      "p25": 0.827,
+      "median": 0.948,
+      "p75": 0.975
+    },
+    "trunk_lean_range_deg": {
+      "n": 345,
+      "p25": 3.5,
+      "median": 4.6,
+      "p75": 5.8
+    }
+  },
+  "E06": {
+    "range_of_motion_deg": {
+      "n": 236,
+      "p25": 40.699999999999996,
+      "median": 50.0,
+      "p75": 61.75
+    },
+    "smoothness_sparc": {
+      "n": 236,
+      "p25": -102.0965,
+      "median": -84.38550000000001,
+      "p75": -66.9115
+    },
+    "tempo_reps_per_s": {
+      "n": 236,
+      "p25": 0.2835,
+      "median": 0.343,
+      "p75": 0.43525
+    },
+    "repetitions": {
+      "n": 236,
+      "p25": 20.0,
+      "median": 24.0,
+      "p75": 29.0
+    },
+    "rep_duration_s": {
+      "n": 236,
+      "p25": 0.97,
+      "median": 1.14,
+      "p75": 1.3824999999999998
+    },
+    "rep_duration_cv": {
+      "n": 236,
+      "p25": 0.39475000000000005,
+      "median": 0.4635,
+      "p75": 0.557
+    },
+    "symmetry_ratio": {
+      "n": 236,
+      "p25": 0.573,
+      "median": 0.718,
+      "p75": 0.87925
+    },
+    "trajectory_consistency": {
+      "n": 236,
+      "p25": 0.22525,
+      "median": 0.291,
+      "p75": 0.37024999999999997
+    },
+    "trunk_lean_range_deg": {
+      "n": 236,
+      "p25": 2.6,
+      "median": 3.3,
+      "p75": 4.525
+    }
+  },
+  "E07": {
+    "range_of_motion_deg": {
+      "n": 157,
+      "p25": 109.8,
+      "median": 118.7,
+      "p75": 128.3
+    },
+    "smoothness_sparc": {
+      "n": 157,
+      "p25": -98.241,
+      "median": -62.85,
+      "p75": -38.979
+    },
+    "tempo_reps_per_s": {
+      "n": 157,
+      "p25": 0.216,
+      "median": 0.252,
+      "p75": 0.268
+    },
+    "repetitions": {
+      "n": 157,
+      "p25": 11.0,
+      "median": 16.0,
+      "p75": 21.0
+    },
+    "rep_duration_s": {
+      "n": 157,
+      "p25": 1.7,
+      "median": 2.45,
+      "p75": 3.5
+    },
+    "rep_duration_cv": {
+      "n": 157,
+      "p25": 0.339,
+      "median": 0.429,
+      "p75": 0.549
+    },
+    "symmetry_ratio": {
+      "n": 157,
+      "p25": 0.18,
+      "median": 0.637,
+      "p75": 0.86
+    },
+    "trajectory_consistency": {
+      "n": 157,
+      "p25": 0.155,
+      "median": 0.241,
+      "p75": 0.452
+    },
+    "trunk_lean_range_deg": {
+      "n": 157,
+      "p25": 0.0,
+      "median": 0.0,
+      "p75": 10.4
+    }
+  },
+  "E08": {
+    "range_of_motion_deg": {
+      "n": 236,
+      "p25": 132.475,
+      "median": 140.35000000000002,
+      "p75": 145.125
+    },
+    "smoothness_sparc": {
+      "n": 236,
+      "p25": -44.1275,
+      "median": -28.274,
+      "p75": -10.44875
+    },
+    "tempo_reps_per_s": {
+      "n": 236,
+      "p25": 0.202,
+      "median": 0.227,
+      "p75": 0.26
+    },
+    "repetitions": {
+      "n": 236,
+      "p25": 1.0,
+      "median": 9.0,
+      "p75": 10.0
+    },
+    "rep_duration_s": {
+      "n": 159,
+      "p25": 3.605,
+      "median": 4.27,
+      "p75": 4.8149999999999995
+    },
+    "rep_duration_cv": {
+      "n": 155,
+      "p25": 0.096,
+      "median": 0.143,
+      "p75": 0.3815
+    },
+    "symmetry_ratio": {
+      "n": 236,
+      "p25": 0.9267500000000001,
+      "median": 0.965,
+      "p75": 0.981
+    },
+    "trajectory_consistency": {
+      "n": 155,
+      "p25": 0.507,
+      "median": 0.82,
+      "p75": 0.893
+    },
+    "trunk_lean_range_deg": {
+      "n": 236,
+      "p25": 0.0,
+      "median": 0.2,
+      "p75": 8.65
+    }
+  },
+  "E09": {
+    "range_of_motion_deg": {
+      "n": 220,
+      "p25": 47.2,
+      "median": 54.75,
+      "p75": 76.975
+    },
+    "smoothness_sparc": {
+      "n": 220,
+      "p25": -41.27375,
+      "median": -21.5745,
+      "p75": -13.73725
+    },
+    "tempo_reps_per_s": {
+      "n": 217,
+      "p25": 0.2,
+      "median": 0.239,
+      "p75": 0.35
+    },
+    "repetitions": {
+      "n": 220,
+      "p25": 3.0,
+      "median": 9.0,
+      "p75": 10.0
+    },
+    "rep_duration_s": {
+      "n": 187,
+      "p25": 1.97,
+      "median": 3.65,
+      "p75": 4.62
+    },
+    "rep_duration_cv": {
+      "n": 177,
+      "p25": 0.098,
+      "median": 0.157,
+      "p75": 0.38
+    },
+    "symmetry_ratio": {
+      "n": 102,
+      "p25": 0.42825,
+      "median": 0.6895,
+      "p75": 0.851
+    },
+    "trajectory_consistency": {
+      "n": 177,
+      "p25": 0.307,
+      "median": 0.772,
+      "p75": 0.908
+    },
+    "trunk_lean_range_deg": {
+      "n": 220,
+      "p25": 43.525,
+      "median": 51.0,
+      "p75": 60.175
+    }
+  }
+}

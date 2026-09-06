@@ -1,0 +1,11 @@
+{
+  "range_of_motion_deg": 0.05,
+  "smoothness_sparc": -0.161,
+  "tempo_reps_per_s": -0.109,
+  "repetitions": 0.134,
+  "rep_duration_s": 0.119,
+  "rep_duration_cv": 0.049,
+  "symmetry_ratio": 0.264,
+  "trajectory_consistency": -0.06,
+  "trunk_lean_range_deg": 0.017
+}
